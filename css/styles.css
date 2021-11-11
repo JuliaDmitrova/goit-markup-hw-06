@@ -760,6 +760,7 @@ body {
   padding: 15px 0 15px 16px;
   width: 358px;
   height: 50px;
+  color: var(--primary-title-color);
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
@@ -859,10 +860,10 @@ body {
 .form-field-wrap {
   position: relative;
   display: block;
-  margin-top: 4px;
 }
+
 .form-field {
-  font-weight: normal;
+  font-weight: 400px;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
@@ -910,7 +911,7 @@ body {
 }
 
 .form-message::placeholder {
-  font-weight: 400;
+  font-weight: 400px;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
@@ -925,7 +926,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-
   margin-bottom: 30px;
   font-weight: 400px;
   font-size: 14px;
